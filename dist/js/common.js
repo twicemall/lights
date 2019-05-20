@@ -45,7 +45,7 @@ $(document).ready(function(){
 
 $(window).bind("load", function() {
   $('.form-heading').text(function (_,txt) {
-    return txt.slice(3, -1);
+    return txt.slice(6, -1);
   });
   $(".label-at-top[for=productName]:contains('商品樣式')").html('選擇款式');
   $(".label-at-top[for=productQuantity]:contains('購買數量')").html('選擇數量');
